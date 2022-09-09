@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(22, 12, 52);
+}
+
+.login-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+}
+
+.login-left img {
+    width: 35vw;
+}
+
+.login-left h1 {
+    font-size: 3vw;
+    color: rgb(15, 251, 153);
+}
+
+.login-right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continer-login {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(41, 26, 86);
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.513);
+}
+
+.continer-login h1 {
+    color: rgb(15, 251, 153);
+    font-weight: bold;
+    margin: 0;
+}
+
+.user-pass {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.user-pass input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    background-color: rgb(98, 81, 149);
+    color: rgba(237, 252, 254, 0.767);
+    font-size: 12pt;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.513);
+    box-sizing: border-box;
+}
+
+.user-pass label {
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.user-pass>input::placeholder {
+    color: #f0ffff94;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #5f28cd;
+    background-color: rgb(15, 251, 153);
+    box-shadow: 0px 10px 30px -12px rgba(15, 251, 153, 0.583);
+    box-sizing: border-box;
+}
