@@ -103,3 +103,16 @@
     box-shadow: 0px 10px 30px -12px rgba(15, 251, 153, 0.583);
     box-sizing: border-box;
 }
+
+@media only screen and (max-width:900px) {
+    .main-login {
+        display: flex;
+        flex-direction: column;
+    }
+    .login-right {
+        width: 100%;
+    }
+    .login-left img {
+        width: 85%;
+    }
+}
